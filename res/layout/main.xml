@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello"/>
+    
+    <Button
+		android:id="@+id/example_admod"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="AdMob Example"/>
+ 	
+ 	<Button
+		android:id="@+id/example_gallery"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Gallery Example"/>
+</LinearLayout>

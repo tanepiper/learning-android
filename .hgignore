@@ -1,0 +1,6 @@
+syntax: glob
+admob-sdk-1.0-android.jar
+*.dex
+*.ap_
+*.class
+*.apk

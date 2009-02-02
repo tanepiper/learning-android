@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/org.ifies.android"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:layout_gravity="bottom">
+   	<TextView
+		android:id="@+id/example_message"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:layout_weight="1" />
+		
+   	<com.admob.android.ads.AdView  
+    	android:id="@+id/ad" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        app:backgroundColor="#000000"
+        app:textColor="#FFFFFF"
+        app:keywords="Brightroid Brightkite Android"
+        app:refreshInterval="60"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"/>
+</LinearLayout>
