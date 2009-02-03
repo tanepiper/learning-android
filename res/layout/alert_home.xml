@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Alert Dialog Examples"/>
+    
+    <Button
+		android:id="@+id/alert1"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Yes/No Only Alert With Icon"/>
+ 	
+ 	<Button
+		android:id="@+id/alert2"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Yes/Cancel/No Alert"/>
+ 		
+ 	<Button
+		android:id="@+id/alert3"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="OK Alert With Long Text"/>
+</LinearLayout>

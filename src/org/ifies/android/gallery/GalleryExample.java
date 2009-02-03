@@ -1,4 +1,6 @@
-package org.ifies.android;
+package org.ifies.android.gallery;
+
+import org.ifies.android.R;
 
 import android.app.Activity; 
 import android.content.Context; 

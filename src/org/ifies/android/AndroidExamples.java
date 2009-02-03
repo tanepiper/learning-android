@@ -1,5 +1,9 @@
 package org.ifies.android;
 
+import org.ifies.android.admob.AdmobExample;
+import org.ifies.android.alert.AlertExamplesHome;
+import org.ifies.android.gallery.GalleryExample;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -59,6 +63,18 @@ public class AndroidExamples extends Activity {
         	
         });
         
+        example_alerts = (Button) findViewById(R.id.example_alerts);
+        example_alerts.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i_Alert = new Intent(AndroidExamples.this, AlertExamplesHome.class);
+				startActivity(i_Alert);
+			}
+        	
+        });
+        
     }
     
     private SharedPreferences app_preferences;
@@ -66,5 +82,6 @@ public class AndroidExamples extends Activity {
     
     private Button example_admob;
     private Button example_gallery;
+    private Button example_alerts;
     
 }

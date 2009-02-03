@@ -22,4 +22,11 @@
  		android:layout_height="wrap_content"
  		android:textStyle="bold"
  		android:text="Gallery Example"/>
+ 		
+ 		<Button
+		android:id="@+id/example_alerts"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Alerts Example"/>
 </LinearLayout>

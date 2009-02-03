@@ -1,4 +1,6 @@
-package org.ifies.android;
+package org.ifies.android.admob;
+
+import org.ifies.android.R;
 
 import com.admob.android.ads.AdView;
 
@@ -14,7 +16,9 @@ public class AdmobExample extends Activity{
 		this.setContentView(R.layout.admob_example);
 		
 		example_message = (TextView) findViewById(R.id.example_message);
-		example_message.setText("This is an example of AdMob for Android");
+		example_message.setText("This is an example of AdMob for Android.\n\n"
+				+ "Please wait while an advert is loaded in to see it in action.\n\n"
+				+ "The sourcecode for this application is available from http://android.ifies.org");
 		
 		example_adview = (AdView) findViewById(R.id.ad);
 		example_adview.setVisibility(AdView.VISIBLE);

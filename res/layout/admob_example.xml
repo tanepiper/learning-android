@@ -6,13 +6,7 @@
    	android:layout_width="fill_parent"
    	android:layout_height="fill_parent"
    	android:layout_gravity="bottom">
-   	<TextView
-		android:id="@+id/example_message"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="TextView"
-		android:layout_weight="1" />
-		
+   	
    	<com.admob.android.ads.AdView  
     	android:id="@+id/ad" 
         android:layout_width="fill_parent" 
@@ -21,6 +15,13 @@
         app:textColor="#FFFFFF"
         app:keywords="Brightroid Brightkite Android"
         app:refreshInterval="60"
-        android:gravity="bottom"
-        android:layout_gravity="bottom"/>
+        android:gravity="top"
+        android:layout_gravity="top"/>
+   	
+   	<TextView
+		android:id="@+id/example_message"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:layout_weight="1" />
 </LinearLayout>
