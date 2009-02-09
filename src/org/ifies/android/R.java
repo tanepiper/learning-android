@@ -8,6 +8,9 @@
 package org.ifies.android;
 
 public final class R {
+    public static final class array {
+        public static final int alert_list_keys=0x7f040000;
+    }
     public static final class attr {
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -57,25 +60,27 @@ containing a value of this type.
         public static final int question=0x7f020001;
     }
     public static final class id {
-        public static final int ad=0x7f050000;
-        public static final int alert1=0x7f050002;
-        public static final int alert2=0x7f050003;
-        public static final int alert3=0x7f050004;
-        public static final int example_admod=0x7f050006;
-        public static final int example_alerts=0x7f050008;
-        public static final int example_gallery=0x7f050007;
-        public static final int example_message=0x7f050001;
-        public static final int gallery=0x7f050005;
+        public static final int ad=0x7f060000;
+        public static final int alert1=0x7f060002;
+        public static final int alert2=0x7f060003;
+        public static final int alert3=0x7f060004;
+        public static final int alert4=0x7f060005;
+        public static final int example_admod=0x7f060007;
+        public static final int example_alerts=0x7f060009;
+        public static final int example_gallery=0x7f060008;
+        public static final int example_message=0x7f060001;
+        public static final int gallery=0x7f060006;
     }
     public static final class layout {
         public static final int admob_example=0x7f030000;
         public static final int alert_home=0x7f030001;
         public static final int gallery_example1=0x7f030002;
         public static final int main=0x7f030003;
+        public static final int simple_list_item_1=0x7f030004;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_name=0x7f050001;
+        public static final int hello=0x7f050000;
     }
     public static final class styleable {
         /** Attributes that can be used with a Gallery1.

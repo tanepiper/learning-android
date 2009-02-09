@@ -30,4 +30,11 @@
  		android:layout_height="wrap_content"
  		android:textStyle="bold"
  		android:text="OK Alert With Long Text"/>
+ 		
+ 	<Button
+		android:id="@+id/alert4"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Alert with a select list"/>
 </LinearLayout>
