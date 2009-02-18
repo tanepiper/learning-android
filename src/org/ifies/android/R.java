@@ -69,14 +69,19 @@ containing a value of this type.
         public static final int example_alerts=0x7f060009;
         public static final int example_gallery=0x7f060008;
         public static final int example_message=0x7f060001;
+        public static final int example_rss_parser=0x7f06000a;
         public static final int gallery=0x7f060006;
+        public static final int rss_all_items=0x7f06000c;
+        public static final int rss_item_title=0x7f06000b;
     }
     public static final class layout {
         public static final int admob_example=0x7f030000;
         public static final int alert_home=0x7f030001;
         public static final int gallery_example1=0x7f030002;
         public static final int main=0x7f030003;
-        public static final int simple_list_item_1=0x7f030004;
+        public static final int rss_item=0x7f030004;
+        public static final int rss_list=0x7f030005;
+        public static final int simple_list_item_1=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

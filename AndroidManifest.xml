@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="org.ifies.android"
-      android:versionName="1.1.1" android:versionCode="3">
+      android:versionName="1.1.2" android:versionCode="4">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
     	<meta-data android:value="a14988915c43dd3" android:name="ADMOB_PUBLISHER_ID" />
         <activity android:name=".AndroidExamples" android:label="@string/app_name">
@@ -28,7 +28,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    </application>
+    <activity android:name=".sax.RssActivity"><intent-filter><action android:name="android.intent.action.MAIN"></action>
+<category android:name="android.intent.category.DEFAULT"></category>
+</intent-filter>
+</activity>
+</application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>

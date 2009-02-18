@@ -23,10 +23,18 @@
  		android:textStyle="bold"
  		android:text="Gallery Example"/>
  		
- 		<Button
+ 	<Button
 		android:id="@+id/example_alerts"
 		android:layout_width="fill_parent"
  		android:layout_height="wrap_content"
  		android:textStyle="bold"
  		android:text="Alerts Example"/>
+
+ 	<Button
+		android:id="@+id/example_rss_parser"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="SAX RSS Parser Example"/> 		
+ 		
 </LinearLayout>
