@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	
+	<Button
+		android:id="@+id/button_go"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="Go" />
+	
+	<EditText
+		android:layout_height="wrap_content"
+		android:id="@+id/enter_uri"
+		android:layout_toRightOf="@+id/button_go"
+		android:layout_width="fill_parent" />
+	
+	<WebView
+		android:id="@+id/wv1"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/enter_uri" />
+		
+</RelativeLayout>

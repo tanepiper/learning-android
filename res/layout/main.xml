@@ -35,6 +35,13 @@
 		android:layout_width="fill_parent"
  		android:layout_height="wrap_content"
  		android:textStyle="bold"
- 		android:text="SAX RSS Parser Example"/> 		
+ 		android:text="SAX RSS Parser Example"/>
+ 		
+ 	<Button
+		android:id="@+id/example_webkit_view"
+		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:textStyle="bold"
+ 		android:text="Example Webkit View with Progress Bar"/>
  		
 </LinearLayout>

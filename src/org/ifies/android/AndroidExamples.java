@@ -4,6 +4,7 @@ import org.ifies.android.admob.AdmobExample;
 import org.ifies.android.alert.AlertExamplesHome;
 import org.ifies.android.gallery.GalleryExample;
 import org.ifies.android.sax.RssActivity;
+import org.ifies.android.webkit.ExampleWebkit;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -88,6 +89,18 @@ public class AndroidExamples extends Activity {
         	
         });
         
+        example_webview = (Button) findViewById(R.id.example_webkit_view);
+        example_webview.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i_Alert = new Intent(AndroidExamples.this, ExampleWebkit.class);
+				startActivity(i_Alert);
+			}
+        	
+        });
+        
     }
     
     private SharedPreferences app_preferences;
@@ -97,5 +110,6 @@ public class AndroidExamples extends Activity {
     private Button example_gallery;
     private Button example_alerts;
     private Button example_rss_parser;
+    private Button example_webview;
     
 }
