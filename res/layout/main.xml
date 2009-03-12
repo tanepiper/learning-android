@@ -3,45 +3,59 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-	
-	<TextView  
-    	android:layout_width="fill_parent" 
-    	android:layout_height="wrap_content" 
-    	android:text="@string/hello"/>
     
-    <Button
-		android:id="@+id/example_admod"
-		android:layout_width="fill_parent"
- 		android:layout_height="wrap_content"
- 		android:textStyle="bold"
- 		android:text="AdMob Example"/>
- 	
- 	<Button
-		android:id="@+id/example_gallery"
-		android:layout_width="fill_parent"
- 		android:layout_height="wrap_content"
- 		android:textStyle="bold"
- 		android:text="Gallery Example"/>
- 		
- 	<Button
-		android:id="@+id/example_alerts"
-		android:layout_width="fill_parent"
- 		android:layout_height="wrap_content"
- 		android:textStyle="bold"
- 		android:text="Alerts Example"/>
+    <ScrollView
+    	android:id="@+id/ScrollView01"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	
+    	<RelativeLayout
+    		android:id="@+id/LinearLayout01"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
 
- 	<Button
-		android:id="@+id/example_rss_parser"
-		android:layout_width="fill_parent"
- 		android:layout_height="wrap_content"
- 		android:textStyle="bold"
- 		android:text="SAX RSS Parser Example"/>
- 		
- 	<Button
-		android:id="@+id/example_webkit_view"
-		android:layout_width="fill_parent"
- 		android:layout_height="wrap_content"
- 		android:textStyle="bold"
- 		android:text="Example Webkit View with Progress Bar"/>
- 		
+			<TextView
+				android:id="@+id/welcome"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/hello" />
+				
+			<Button
+				android:id="@+id/example_admod"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="AdMob Example" android:layout_below="@+id/welcome"/>
+				
+			<Button
+				android:id="@+id/example_gallery"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Gallery Example" android:layout_below="@+id/example_admod"/>
+				
+			<Button
+				android:id="@+id/example_alerts"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Alerts Example" android:layout_below="@+id/example_gallery"/>
+				
+			<Button
+				android:id="@+id/example_rss_parser"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="SAX RSS Parser Example" android:layout_below="@+id/example_alerts"/>
+				
+			<Button
+				android:id="@+id/example_webkit_view"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Example Webkit View with Progress Bar" android:layout_below="@+id/example_rss_parser"/>
+				
+		<Button android:layout_below="@id/example_webkit_view" android:layout_height="wrap_content" android:id="@+id/example_location" android:text="Location Example" android:layout_width="fill_parent" android:textStyle="bold"></Button>
+</RelativeLayout>
+	</ScrollView>
 </LinearLayout>
